@@ -1,0 +1,31 @@
+.contacts {
+  position: relative;
+  background: #252934;
+  padding-top: 50px;
+  .title {
+    @extend %title;
+    color: $white-color;
+  }
+  .text-muted {
+    @extend p;
+    color: $second-color !important;
+  }
+  form {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    .form-group {
+      margin-bottom: 5px;
+      input,textarea {
+        background: #1E242C;
+        outline: 0;
+        border: 0;
+        border-radius: 0;
+      }
+    }
+    @extend %btn;
+    .btn {
+      margin: 5px 0 10px 0;
+    }
+  }
+}

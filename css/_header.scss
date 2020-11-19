@@ -1,0 +1,11 @@
+header {
+  background: url(../images/bg.jpg);
+  height: calc(100vh);
+  @extend %fx;
+  text-align: center;
+.title{
+  color:$white-color;
+  font-size: 30px;
+}
+  @extend %btn;
+}
